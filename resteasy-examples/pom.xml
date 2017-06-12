@@ -28,6 +28,19 @@
       <version>${resteasy.version}</version>
     </dependency>
 
+   <!-- CDI integration -->
+   <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-cdi</artifactId>
+      <version>${resteasy.version}</version>
+   </dependency>
+
+   <dependency>
+      <groupId>org.jboss.weld.vertx</groupId>
+      <artifactId>weld-vertx-core</artifactId>
+      <version>1.0.0.CR6</version>
+   </dependency>
+
   </dependencies>
 
   <build>
